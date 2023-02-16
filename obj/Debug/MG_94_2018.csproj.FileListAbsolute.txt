@@ -1,0 +1,11 @@
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\bin\Debug\MG_94_2018.exe.config
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\bin\Debug\MG_94_2018.exe
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\bin\Debug\MG_94_2018.pdb
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\obj\Debug\MG_94_2018.csproj.AssemblyReference.cache
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\obj\Debug\MG_94_2018.csproj.SuggestedBindingRedirects.cache
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\obj\Debug\MG_94_2018.Properties.Resources.resources
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\obj\Debug\MG_94_2018.csproj.GenerateResource.cache
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\obj\Debug\MG_94_2018.csproj.CoreCompileInputs.cache
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\obj\Debug\MG_94_2018.exe
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\obj\Debug\MG_94_2018.pdb
+C:\Users\andri\Desktop\dizajn softvera\MG-94-2018\obj\Debug\MG_94_2018.Form1.resources
