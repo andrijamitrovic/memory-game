@@ -33,6 +33,9 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.nazivSlike = new System.Windows.Forms.Label();
+            this.brojacPoteza = new System.Windows.Forms.Label();
+            this.vremeOdPocetka = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,12 +91,42 @@
             this.button2.Size = new System.Drawing.Size(75, 55);
             this.button2.TabIndex = 26;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // nazivSlike
+            // 
+            this.nazivSlike.AutoSize = true;
+            this.nazivSlike.Location = new System.Drawing.Point(995, 91);
+            this.nazivSlike.Name = "nazivSlike";
+            this.nazivSlike.Size = new System.Drawing.Size(0, 13);
+            this.nazivSlike.TabIndex = 27;
+            // 
+            // brojacPoteza
+            // 
+            this.brojacPoteza.AutoSize = true;
+            this.brojacPoteza.Location = new System.Drawing.Point(989, 229);
+            this.brojacPoteza.Name = "brojacPoteza";
+            this.brojacPoteza.Size = new System.Drawing.Size(72, 13);
+            this.brojacPoteza.TabIndex = 28;
+            this.brojacPoteza.Text = "Broj poteza: 0";
+            // 
+            // vremeOdPocetka
+            // 
+            this.vremeOdPocetka.AutoSize = true;
+            this.vremeOdPocetka.Location = new System.Drawing.Point(862, -1);
+            this.vremeOdPocetka.Name = "vremeOdPocetka";
+            this.vremeOdPocetka.Size = new System.Drawing.Size(148, 13);
+            this.vremeOdPocetka.TabIndex = 29;
+            this.vremeOdPocetka.Text = "Broj sekundi od pocetka igre: ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 661);
+            this.Controls.Add(this.vremeOdPocetka);
+            this.Controls.Add(this.brojacPoteza);
+            this.Controls.Add(this.nazivSlike);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
@@ -103,6 +136,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -112,6 +146,9 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label nazivSlike;
+        private System.Windows.Forms.Label brojacPoteza;
+        private System.Windows.Forms.Label vremeOdPocetka;
     }
 }
 
